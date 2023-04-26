@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="jquery-3.6.4.min.js"></script>
+		<script src="script.js"></script>
+		<title>Form</title>
+	</head>
+	<body>
+		<div id="fixed-container">
+			<div class="left-column">
+				<div id="place-for-object" class="label-text">Список дел:</div>
+				<div id="place-for"></div>
+				<div class="little-text">Список пуст...</div>
+			</div>
+			<div class="right-column">
+				<div class="label-text">Добавить новое дело</div>
+				<div class="note">
+					<div class="small-text">* Название</div>
+					<input id="input-name" type="text" name="name">
+					<div class="small-text">* Описание</div>
+					<textarea id="input-not" class="input-notion"></textarea>
+					<button class="big-button" type="submit">Добавить дело</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
